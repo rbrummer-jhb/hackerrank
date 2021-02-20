@@ -41,20 +41,20 @@ For each query, print the corresponding series on a new line. Each series must b
 We have two queries:
 
 1. We use **_a = 0, b = 2,_** and **_n = 10_** to produce some series **_s[0], s[1], ..., s[n-1]_**:
-* **_s[0] = 0 + 1 * 2 = 2_**
-* **_s[1] = 0 + 1 * 2 + 2 * 2 = 6_**
-* **_s[2] = 0 + 1 * 2 + 2 * 2 + 4 * 2 = 14_**
+    * **_s[0] = 0 + 1 * 2 = 2_**
+    * **_s[1] = 0 + 1 * 2 + 2 * 2 = 6_**
+    * **_s[2] = 0 + 1 * 2 + 2 * 2 + 4 * 2 = 14_**
 
 ... and so on.
 
 Once we hit **_n = 10_**, we print the first ten terms as a single line of space-separated integers.
 
 2. We use **_a = 5, b = 3,_** and **_n = 5_** to produce some series **_s[0], s[1], ..., s[n-1]_**:
-* **_s[0] = 1 * 3 = 8_**
-* **_s[1] = 1 * 3 + 2 * 3 = 14_**
-* **_s[2] = 1 * 3 + 2 * 3 + 4 * 3 = 26_**
-* **_s[3] = 1 * 3 + 2 * 3 + 4 * 3 + 8 * 3 = 50_**
-* **_s[4] = 1 * 3 + 2 * 3 + 4 * 3 + 8 * 3 + 16 * 3 = 98_**
+    * **_s[0] = 1 * 3 = 8_**
+    * **_s[1] = 1 * 3 + 2 * 3 = 14_**
+    * **_s[2] = 1 * 3 + 2 * 3 + 4 * 3 = 26_**
+    * **_s[3] = 1 * 3 + 2 * 3 + 4 * 3 + 8 * 3 = 50_**
+    * **_s[4] = 1 * 3 + 2 * 3 + 4 * 3 + 8 * 3 + 16 * 3 = 98_**
 
 We then print each element of our series as a single line of space-separated values.
 
