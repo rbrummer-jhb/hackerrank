@@ -1,4 +1,4 @@
-<h1>Welcome to Java!</h1>
+# Welcome to Java!
 
 Welcome to the world of Java! In this challenge, we practice printing to stdout.
 
@@ -27,7 +27,7 @@ Hello, World.
 Hello, Java.
 ```
 
-<h2>Solution</h2>
+## Solution
 
 ```java
 public class Solution {
