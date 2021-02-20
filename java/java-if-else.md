@@ -11,8 +11,8 @@ Wikipedia: [Source](https://en.wikipedia.org/wiki/Conditional_%28computer_progra
 Given an integer, **_n_**, perform the following conditional actions:
 
 * If **_n_** is odd, print `Weird`
-* If **_n_** is even and in the inclusive range of **_2 to 5_** to , print `Not Weird`
-* If **_n_** is even and in the inclusive range of **_6 to 20_** to , print `Weird`
+* If **_n_** is even and in the inclusive range of **_2 to 5_**, print `Not Weird`
+* If **_n_** is even and in the inclusive range of **_6 to 20_**, print `Weird`
 * If **_n_** is even and greater than **_20_**, print `Not Weird`
 
 Complete the stub code provided in your editor to print whether or not **_n_** is weird.
