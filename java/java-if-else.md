@@ -57,11 +57,7 @@ Not Weird
 
 Sample Case 0: **_n = 3_**
 
-**Sample Case 0:**
-
 **_n_** is odd and odd numbers are weird, so we print `Weird`.
-
-**Sample Case 1:**
 
 Sample Case 1: **_n = 24_**
 
