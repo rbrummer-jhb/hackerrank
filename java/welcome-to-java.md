@@ -1,5 +1,4 @@
 # Welcome to Java!
-![Java Icon](https://github.com/rbrummer-jhb/hackerrank/tree/main/java/java.png) "Java Icon"
 
 Welcome to the world of Java! In this challenge, we practice printing to stdout.
 
