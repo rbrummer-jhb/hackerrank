@@ -6,4 +6,4 @@ You are given a date. You just need to write the method, **_getDay_**, which ret
 
 For example, if you are given the date **_August 14th 2017_**, the method should return **_MONDAY_** as the day on that date.
 
-![calendar-image]()
+![calendar-image](https://github.com/rbrummer-jhb/hackerrank/blob/main/java/images/calendar-image.png)
