@@ -30,7 +30,7 @@ lowo
 
 In the diagram below, the substring is highlighted in green:
 
-![substring-image]()
+![substring-image](https://github.com/rbrummer-jhb/hackerrank/blob/main/java/images/substring-image.png)
 
 ## Solution
 
