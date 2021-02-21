@@ -41,17 +41,17 @@ public class Solution {
 		Scanner in = new Scanner(System.in);
 		int testCases = Integer.parseInt(in.nextLine());
 		
-    while(testCases>0) {
+	   	while(testCases > 0) {
 			String pattern = in.nextLine();
-      //Write your code
+	      		//Write your code
 
-      testCases--;
-      try {
-          Pattern theMatch = Pattern.compile(pattern, Pattern.CASE_INSENSITIVE);
-          System.out.println("Valid");
-      } catch (Exception e) {
-          System.out.println("Invalid");
-      }
+	      		testCases--;
+	      		try {
+				Pattern theMatch = Pattern.compile(pattern, Pattern.CASE_INSENSITIVE);
+		  		System.out.println("Valid");
+	      		} catch (Exception e) {
+		  		System.out.println("Invalid");
+	      		}
 		}
 	}
 }
