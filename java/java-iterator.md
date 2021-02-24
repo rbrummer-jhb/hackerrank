@@ -44,30 +44,31 @@ To restore the original code in the editor, click the top left icon on the edito
 import java.util.*;
 public class Main{
 	
-   static Iterator func(ArrayList mylist){
+   static Iterator func(ArrayList mylist) {
       Iterator it=mylist.iterator();
-      while(it.hasNext()){
+      
+      while(it.hasNext()) {
          
         
-        /*
-        ** First iteration our iterator value will be an Integer value.
-        ** Second iteration our iterator value will be an Integer value again.
-        ** Third iteration is where we now find the "###" string and we break;
-        ** WHY? --> So that we return our iterator, Index 0 of the iterator
-        ** will be the "###" strin then we iterate over that and print the
-        ** rest of the strings inside our iterator.
-        **
-        **              [int, int, "###", string, string]
-        */
+	/*
+	** First iteration our iterator value will be an Integer value.
+	** Second iteration our iterator value will be an Integer value again.
+	** Third iteration is where we now find the "###" string and we break;
+	** WHY? --> So that we return our iterator, Index 0 of the iterator
+	** will be the "###" strin then we iterate over that and print the
+	** rest of the strings inside our iterator.
+	**
+	**              [int, int, "###", string, string]
+	*/
         
         Object element = it.next();
         // Hints: use instanceof operator
         if (element instanceof String)
 
 
-			    break;
-		  }
-      return it;
+	    break;
+  	}
+      	return it;
       
    }
    @SuppressWarnings({ "unchecked" })
